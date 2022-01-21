@@ -1,0 +1,37 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.main{
+    width: 40%;
+    height: 500px;
+    margin: 0 auto;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px;
+}
+
+.logo{
+    display: flex;
+    align-items: center;
+}
+
+.logo span{
+    margin-right: 10px;
+    font-size: 30px;
+}
+
+.logo_titulo{
+    font-weight: bold;
+}
+
+.menu span{
+    font-size: 30px;
+}
