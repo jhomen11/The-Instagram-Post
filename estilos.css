@@ -4,18 +4,22 @@
     box-sizing: border-box;
 }
 
-.main{
-    width: 40%;
-    height: 500px;
-    margin: 0 auto;
-    font-family: 'Montserrat', sans-serif;
+body{
+    background: #2c2c2c;
 }
 
-.nav{
+.main{
+    width: 38%;
+    margin: 20px auto;
+    font-family: 'Montserrat', sans-serif;
+    background: #fff;
+}
+
+.nav, .favoritos{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 15px;
+    padding: 10px;
 }
 
 .logo{
@@ -23,15 +27,32 @@
     align-items: center;
 }
 
-.logo span{
+.logo span, .menu span, .favoritos span{
     margin-right: 10px;
     font-size: 30px;
+}
+
+.body_titulo p{
+    padding: 10px;
+}
+
+p span{
+    font-weight: bold;
 }
 
 .logo_titulo{
     font-weight: bold;
 }
 
-.menu span{
-    font-size: 30px;
+
+img{
+    width: 100%;
+    
+}
+p > span{
+    font-weight: bold;
+}
+
+.decripcion p{
+    padding: 10px;
 }
